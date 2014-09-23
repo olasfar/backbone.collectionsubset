@@ -123,7 +123,7 @@
         return;
       }
       if (this.filter(model)) {
-        return this._replaceChildModel(model);
+        return this._replaceChildModel(model, options);
       }
     };
 
